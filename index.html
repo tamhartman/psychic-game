@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zoltar Speaks!</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 
 
-<body onload="startUp()">
-<!-- Javascript Hangman Game -->
-<div class="wrapper">
 
+<body>
+<div class="container">
+<div class="row">
+<div class="col">
     <h1>Zoltar Speaks!</h1>
-    <h2>Guess the Letter</h2> 
-
-
 </div>
-
-<h1>Guess a letter</h1>
-<input id="letter" type="text">
-<input type="button" value="letter" onClick="Letter()"/>
+</div>
+<div class="row">
+<div class="col">
+<img src="assets/images/zoltar_000.jpg" alt="zoltar speaks">
+</div>
+<div class="col">
+<h2>Guess a letter</h2>
 <p>Wins: <span id="wins">0</span></p>
 <p>Losses: <span id="losses">0</span></p>
 <p>Guesses Left: <span id="guesses-left"></span></p>
-<p>Guesses so far: <span id="guesses-made"</p>
-
+<p>Guesses so far: <span id="guesses-made">0</span></p>
+</div>
+</div>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
